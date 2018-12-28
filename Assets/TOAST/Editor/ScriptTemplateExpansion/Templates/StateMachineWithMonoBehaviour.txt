@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviourWithStatemachine< #SCRIPTNAME#.State > {
+    public enum State
+    {
+        Init,
+        End
+    }
+    IEnumerator Init()
+    {
+        yield return null;
+    }
+
+    IEnumerator End()
+    {
+        yield return null;
+    }
+}
